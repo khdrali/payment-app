@@ -1,0 +1,34 @@
+.all-expanse{
+    border: 3px solid;
+    border-color: white;
+    border-radius: 5px;
+    width: hug(604px);
+    height: hug(320px);
+    background: white;
+    margin-top: 40px;
+    
+}
+
+.all-expanse h6{
+    font-family: montserrat;
+    font-weight: 600;
+    size: 20px;
+    line-height: 24px;
+    color: #064061;
+}
+
+.all-expanse h7{
+    font-family: montserrat;
+    font-weight: 500;
+    size: 16px;
+    line-height: 19px;
+    color:#064061 ;
+}
+
+.card-select{
+    width: hug(180px);
+    height: hug(216px);
+    border-radius: 12px;
+    gap: 34px;
+    background-color: #4EB7F2;
+}
