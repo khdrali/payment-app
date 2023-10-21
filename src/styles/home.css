@@ -1,5 +1,9 @@
+#expense{
+    background-color: blue;
+}
+
 .all-expanse{
-    border: 3px solid;
+    box-sizing: border-box solid 3px;
     border-color: white;
     border-radius: 5px;
     width: hug(604px);
@@ -17,6 +21,10 @@
     color: #064061;
 }
 
+.wrap-month{
+    border: 1px #F1F1F1;
+}
+
 .all-expanse h7{
     font-family: montserrat;
     font-weight: 500;
@@ -25,10 +33,341 @@
     color:#064061 ;
 }
 
+.warp-card{
+    margin-top: 40px;
+}
+
 .card-select{
-    width: hug(180px);
+    width: hug(190px);
     height: hug(216px);
     border-radius: 12px;
     gap: 34px;
     background-color: #4EB7F2;
+}
+
+.card-side{
+    width: hug(180px);
+    height: hug(216px);
+    border-radius: 12px;
+    border: 1px solid white;
+    gap: 34px;
+    background-color: white;
+}
+
+.text{
+    width: Fill(140px);
+    height: hug(29px);
+    gap: 12px;
+    margin-top: 40px;
+}
+
+.text h4{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+.text p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+}
+
+.text h3{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.card-side .text h4{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #064061;
+}
+
+.card-side .text p{
+    color: #AAAAAA;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.card-side .text h3{
+    color: #4EB7F2;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+}
+
+/* Invoice */
+
+.invoice{
+    width:Fixed(604px);
+    height: Hug(566px);
+    top: 384px;
+    left: 312px;
+    padding: 24px;
+    border-radius: 12px;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+.invoice h4{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #064061;
+}
+
+.invoice .latest{
+    width: Fixed (556px);
+    height: Hug (104px);
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.invoice .latest h4{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #064061;
+
+}
+
+.latest .list{
+    width: Hug (224px);
+    height: Hug (72px);
+    padding: 12px;
+    border-radius: 8px;
+    gap: 12px;
+    background: #FAFAFA;
+}
+
+.latest .line{
+    width: 556px;
+    border: 1px solid #F1F1F1;
+    margin-top: 20px;
+}
+
+.invoice .form{
+    margin-top: 20px;
+}
+
+.invoice .form label{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #064061;
+}
+
+.invoice .form input{
+    width: 210px;
+    height: Hug (60px);
+    padding: 20px;
+    border-radius: 12px;
+    gap: 10px;
+    background-color: #FAFAFA;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #AAAAAA;
+    margin-top: 10px;
+}
+
+.invoice .form .money{
+    width: 80px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: #FAFAFA;
+    margin-top: 10px;
+}
+
+
+.invoice .add{
+    width: Fill (266px);
+    height: Hug (62px);
+    padding: 15px;
+    border-radius: 12px;
+    gap: 10px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    color: #4EB7F2;
+    margin-top: 20px;
+}
+
+.invoice .send{
+    width:  200px;
+    height: Hug (62px);
+    padding: 15px;
+    border-radius: 12px;
+    gap: 10px;
+    background-color: #4EB7F2;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+
+/* Right side */
+
+#card{
+    width: 400px;
+    height: 905px;
+    padding: 2px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background: #FFFFFF;
+    margin-top: 40px;
+}
+
+#card h4{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #064061;
+}
+
+#card .name-card{
+    width: 400px;
+    height: 215px;
+    border-radius: 12px;
+    border: 1px solid #FFFFFF24;
+    background-color: #4EB7F2;
+
+}
+
+#card .name-card h6{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+#card .name-card p{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin-left: 12x;
+}
+
+#card .name-card img{
+    margin-top: 30px;
+}
+
+#card .hair-line{
+    width: 400px;
+    border: 1px solid #F1F1F1;
+    margin-top: 30px;
+}
+
+#card .history{
+    margin-top: 20px;
+}
+
+#card .history h6{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #064061;
+}
+
+#card .history p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #4EB7F2;
+}
+
+#card .date p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #AAAAAA;
+}
+
+#card .box{
+    width: Fill (426px);
+    height: Hug (78px);
+    padding: 16px;
+    border-radius: 12px;
+    gap: 24px;
+    background-color: #FAFAFA;
+    margin-top: 20px;
+}
+
+#card .box h4{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-top: 5px;
+}
+
+#card .box p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #AAAAAA;
+}
+
+#card .box h5{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #F3735E;
+    margin-top: 15px;
+}
+
+#card .box h6{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #7DD97B;
 }
