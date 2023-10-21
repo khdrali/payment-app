@@ -25,12 +25,14 @@
     border: 1px #F1F1F1;
 }
 
-.all-expanse h7{
+.all-expanse select{
     font-family: montserrat;
     font-weight: 500;
     size: 16px;
     line-height: 19px;
     color:#064061 ;
+    border: none;
+    background-color: white;
 }
 
 .warp-card{
@@ -134,8 +136,8 @@
 }
 
 .invoice .latest{
-    width: Fixed (556px);
-    height: Hug (104px);
+    width: 556px;
+    height: 104px;
     gap: 12px;
     margin-top: 15px;
 }
@@ -151,12 +153,40 @@
 }
 
 .latest .list{
-    width: Hug (224px);
-    height: Hug (72px);
+    width: 180px;
+    height: 72px;
     padding: 12px;
     border-radius: 8px;
     gap: 12px;
     background: #FAFAFA;
+    margin: 10px;
+}
+
+.latest .scroll{
+    flex-wrap: nowrap;
+    overflow-x:auto;
+}
+
+.latest .list img{
+    width: 40px;
+}
+
+.latest .list h4{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #064061;
+}
+
+.latest .list p{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: #AAAAAA;
 }
 
 .latest .line{
@@ -166,7 +196,7 @@
 }
 
 .invoice .form{
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .invoice .form label{
@@ -286,6 +316,30 @@
 
 #card .name-card img{
     margin-top: 30px;
+}
+
+#card .name-card .number-card{
+    margin-top: 45px;
+    text-align:end;
+    margin-right: 20px;
+}
+
+#card .name-card .number-card h5{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+#card .name-card .number-card p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
 }
 
 #card .hair-line{
