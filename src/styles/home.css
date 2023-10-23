@@ -1,5 +1,35 @@
+.main{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
 #expense{
     background-color: blue;
+}
+
+.img-acc img{
+    width: 40px;
+}
+
+.acc h4{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+.acc p{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    color: #AAAAAA;
+
 }
 
 .all-expanse{
@@ -26,6 +56,8 @@
 }
 
 .all-expanse select{
+    width: 110px;
+    margin-right: 30px;
     font-family: montserrat;
     font-weight: 500;
     size: 16px;
@@ -44,6 +76,7 @@
     height: hug(216px);
     border-radius: 12px;
     gap: 34px;
+    margin-left: 25px;
     background-color: #4EB7F2;
 }
 
@@ -248,8 +281,8 @@
     margin-top: 20px;
 }
 
-.invoice .send{
-    width:  200px;
+.invoice .add:hover{
+    width:  Fill(266px);
     height: Hug (62px);
     padding: 15px;
     border-radius: 12px;
@@ -268,7 +301,6 @@
 #card{
     width: 400px;
     height: 905px;
-    padding: 2px;
     border: 2px solid white;
     border-radius: 12px;
     background: #FFFFFF;
@@ -286,7 +318,7 @@
 }
 
 #card .name-card{
-    width: 400px;
+    width: 381px;
     height: 215px;
     border-radius: 12px;
     border: 1px solid #FFFFFF24;
